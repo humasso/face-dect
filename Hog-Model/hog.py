@@ -5,7 +5,7 @@ from skimage.feature import hog
 import matplotlib.pyplot as plt
 
 #reading the image
-img = imread('pp.jpg')
+img = imread('/workspace/face-dect/Hog-Model/pic/denny.jpg')
 plt.axis("off")
 plt.imshow(img)
 print(img.shape)
